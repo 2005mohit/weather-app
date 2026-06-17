@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:sans-serif;
+  background:#f4f4f4;
+}
+
+.container{
+  max-width:700px;
+  margin:auto;
+  padding:30px;
+  text-align:center;
+}
+
+form{
+  margin:20px 0;
+}
+
+input{
+  padding:12px;
+  width:250px;
+}
+
+button{
+  padding:12px 20px;
+  cursor:pointer;
+}
+
+.weather-card{
+  margin-top:20px;
+  background:white;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 0 10px rgba(0,0,0,.1);
+}

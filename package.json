@@ -1,0 +1,9 @@
+{
+  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/weather-app",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+}
